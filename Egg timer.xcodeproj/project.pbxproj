@@ -13,6 +13,7 @@
 		6CF613D1254ED1E1000C56D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF613CF254ED1E1000C56D6 /* Main.storyboard */; };
 		6CF613D3254ED1E2000C56D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CF613D2254ED1E2000C56D6 /* Assets.xcassets */; };
 		6CF613D6254ED1E2000C56D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF613D4254ED1E2000C56D6 /* LaunchScreen.storyboard */; };
+		6CF613E1254ED2AA000C56D6 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6CF613E0254ED2AA000C56D6 /* alarm_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6CF613D2254ED1E2000C56D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CF613D5254ED1E2000C56D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CF613D7254ED1E2000C56D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CF613E0254ED2AA000C56D6 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		6CF613C8254ED1E1000C56D6 /* Egg timer */ = {
 			isa = PBXGroup;
 			children = (
+				6CF613DE254ED222000C56D6 /* Sounds */,
 				6CF613C9254ED1E1000C56D6 /* AppDelegate.swift */,
 				6CF613CB254ED1E1000C56D6 /* SceneDelegate.swift */,
 				6CF613CD254ED1E1000C56D6 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				6CF613D7254ED1E2000C56D6 /* Info.plist */,
 			);
 			path = "Egg timer";
+			sourceTree = "<group>";
+		};
+		6CF613DE254ED222000C56D6 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6CF613E0254ED2AA000C56D6 /* alarm_sound.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			files = (
 				6CF613D6254ED1E2000C56D6 /* LaunchScreen.storyboard in Resources */,
 				6CF613D3254ED1E2000C56D6 /* Assets.xcassets in Resources */,
+				6CF613E1254ED2AA000C56D6 /* alarm_sound.mp3 in Resources */,
 				6CF613D1254ED1E1000C56D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
